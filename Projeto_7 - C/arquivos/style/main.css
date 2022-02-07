@@ -1,0 +1,574 @@
+body{
+    margin: 0;
+    font-family: 'open sans', sans-serif;
+    line-height: 1.5;
+}
+
+img{
+    
+    max-width: 100%;
+}
+/*-------------------------------------cabeçalho-----------------*/
+.header{
+    
+    background: #fff;
+    width: 100%;
+    z-index: 4;
+}
+
+.navbar-brand{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #63c6ae;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    text-align: right;
+  
+}
+
+#logo{
+    
+    color: #fff;
+    
+}
+.menu{
+    list-style-type: none;
+    background-color: #fff;
+    
+    
+}
+
+.menu-link{
+    
+    background: #242a2c;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px; 
+    padding: 25px 0;
+    text-align: center;
+    transition: .7s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+   
+}
+
+#menu-link{
+    
+    color: #fff;
+    font-weight: normal;
+}
+
+#logo:hover{
+    background-color:#96decd;
+    
+}
+
+#menu-link:hover{
+    
+    color: #63c6ae;
+    font-weight: normal;
+}
+
+
+/*-------------------------------------cabeçalho-----------------*/
+
+/*------------------hero-----------------------*/
+h1 .abrev{
+    
+    text-decoration: none;
+}
+
+.hero{
+    
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(45deg, white 50%, transparent 50%)  left calc(50% + 20px) bottom no-repeat,
+        linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat,
+        url(../img/01.jpg);
+    background-size: 40px 40px, 40px 40px, cover;
+}
+
+.hero-title{ 
+    
+    background-color: #63c6ae;
+    color: #fff;
+    padding: 30px 26px;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero-text{
+    
+    background-color: #242a2c;
+    color: #fff;
+    padding: 12px;
+    font-size: 20px;
+    margin: 5px 30px 35px;
+    
+}
+
+.hero-btn{
+    
+    background-color: rgba(0,0,0,.2);
+    color: #fff;
+    border: rgba(255,255,255,.3);
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;    
+    
+}
+.hero-btn:hover{
+    text-decoration: none;
+   
+}
+
+/*------------------hero-----------------------*/
+/*------------------cards-----------------------*/
+/*------------------cards-----------------------*/
+.cards{
+    
+    margin: 2.5em 2.5em 0px ;
+    
+}
+.div-cards-card{
+    border-left: 1px solid #dbe1e7;
+    margin-bottom: 0px;
+    
+   
+}
+
+.cards-card:hover{
+    outline: 4px solid #63c6ae;
+    outline-offset: -4px;
+    
+}
+.cards-card-img{
+    
+    width: 100%;
+}
+
+.cards-card-avata{
+    margin: -55px auto;
+    width: 88px;
+    height: 88px;
+   overflow: hidden;
+}
+
+.cards-card-content{
+    text-align: center;
+    padding: 40px 25px 10px;
+    
+}
+.cards-card-content-title{
+    
+    color: #737c85;
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.cards-card-content-text{
+    
+    color: #929da5;
+    font-size:14px; 
+    
+}
+
+.cards-card:hover .cards-card-avata img{
+    transform: translatey(-50%);
+}
+.cards-card:hover .cards-card-content-title,
+.cards-card:hover .cards-card-content-text{
+    
+    color: #63c6ae;
+    
+}
+
+.content{
+    
+   background-color: #f8f9f9;
+    border-top: 1px solid #e3e3e3;
+    padding: 4em 2.5em;
+    
+}
+
+.content h3{
+    
+    color:#737c85;
+    font-size: 21px;
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+.content p{
+    
+    color:#929da5;
+    font-size: 14px;
+    word-spacing: 3px;
+    
+}
+
+.button{
+    
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 3px; 
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition:  background-color .7s;
+}
+
+.button:hover{
+    
+    background-color: #929da5;
+    text-decoration: none;
+}
+
+
+.button-primary{
+    
+    background-color: #69c6ae;
+    color: white;
+    
+    
+}
+
+.button-secudary{
+    
+    background-color: #455357;
+    color: white;
+    
+}
+
+.last-articles-title{
+    
+    background-color: #63c6ae;
+    padding:  5px 0;
+    
+}
+
+.last-articles-title h2{
+   
+    padding-left: 1.7em;
+    font-size:24px;
+    color: #fff;
+    text-transform:uppercase;
+    font-weight: 400;
+    margin-left: 0;
+    
+    
+}
+
+.last-articles-imgs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 0;
+}
+
+.last-articles-imgs img{
+   display: block;
+  width: 100%;
+}
+
+/*-------------------laptop--------------------*/
+.l-slider{
+    background-color: #242a2c;
+    padding: 125px 0 100px;
+    width: 100%; 
+    overflow: auto;
+}
+.l-sliderShow{
+    white-space: nowrap;
+}
+.l-sliderShow figure{
+    display: inline-block;
+   
+}
+/*-----------------laptop----------------------*/
+
+
+/*----------------comentarios-----------------------*/
+
+.quote-content{
+    
+    background-color: #63c6ae;
+    padding: 50px 0;
+    border-bottom: 12px solid #4ab9a1;
+}
+
+.quote-content-div h2{
+    
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.quote-content-div figcaption{
+    
+    
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+    font-style: italic;
+    
+    
+}
+
+.no-js .quote-content-div figure + figure{
+    
+    margin-top: 5em;
+    
+}
+
+
+
+/*----------------comentarios-----------------------*/
+/*----------------rodapé e menu-----------------*/
+
+.footer{
+    background-color: #242a2c;
+    padding: 2.5em;
+    color: #454e51;
+    
+}
+.footer-links li{
+    list-style: none;
+   
+}
+.footer-links a{
+    
+    text-decoration: none;
+    display: block;
+    color: #454e51;
+    
+}
+
+.footer-logo{
+    
+    text-transform: uppercase;
+}
+
+    
+
+
+.btn-span{
+    
+    text-align: center;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+
+/*----------------rodapé-----------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--------resposividade sem javascript-----------------------------------------------------------------------*/
+
+@media screen and (min-width: 991px){
+/* -------------cabeçalho------------------------------------------------------------------------------------ */
+.header{
+        
+        position: fixed;
+    }  
+    
+    .menu{
+        
+        background-color: #fff;
+    }
+
+
+
+
+.menu-link{
+  
+       background: #fff;
+        
+    }
+    
+#menu-link{
+    
+    color: #3c4b48;
+    font-weight: normal;
+}
+    
+#menu-link:hover{
+    
+    color: #63c6ae;
+    font-weight: normal;
+}
+  
+    #navbarNavDropdown{
+        
+    padding-left: 20px;
+    }    
+    
+/*
+    #menu{
+        background-color:
+    }   
+*/
+    
+
+
+/* -------------cabeçalho e menu----------  */
+
+/*cards*/
+    
+    .div-cards-card{
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        border: none;
+        
+    }
+    .cards-card{
+        
+         border-left: 1px solid #dbe1e7;
+    }
+    
+/*cards*/
+
+    .content{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    .last-articles-imgs{
+        
+        grid-template-columns: repeat(6, 1fr); 
+    }
+    
+    
+    .footer{
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;   
+        
+    }
+
+    
+    
+}
+
+/*--------resposividade sem javascript---*/
+
+
+/*-------- javascript ---*/
+
+.js .header{
+    
+    position: fixed;
+    width: 100%;
+}
+
+.header-btnMenu{
+        
+        float: right;
+        margin: 1.5em;
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+    }
+.js .header-nav{
+    
+ transition: max-height 1s;   
+}
+
+/*-------- javascript ---*/
+
+
+
+
+
+.meuCarosel{
+    background-color: #454e51;
+    width: 100%;
+    padding-top: 20px;
+  
+}
+
+.meuCarosel-centro{
+   
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carosel-text{
+    
+    width: 80%;
+    margin: 0 auto; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
