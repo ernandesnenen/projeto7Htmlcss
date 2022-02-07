@@ -1,5 +1,5 @@
 # projeto7 Html css javaScript
-<img src="arquivos\img\infusion.gif" />
+<img src="Projeto_7 - C/arquivos/img/infusion.gif" />
 
 ## Sobre
 esses projeto foi criado no "curso Web Design Completo: HTML CSS3 E JS",
